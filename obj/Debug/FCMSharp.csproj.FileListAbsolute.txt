@@ -1,0 +1,12 @@
+E:\FCMSharp\FCMSharp\FCMSharp\bin\Debug\FCMSharp.dll
+E:\FCMSharp\FCMSharp\FCMSharp\bin\Debug\FCMSharp.pdb
+E:\FCMSharp\FCMSharp\FCMSharp\obj\Debug\FCMSharp.csprojResolveAssemblyReference.cache
+E:\FCMSharp\FCMSharp\FCMSharp\obj\Debug\FCMSharp.dll
+E:\FCMSharp\FCMSharp\FCMSharp\obj\Debug\FCMSharp.pdb
+C:\FCMSharp\FCMSharp\bin\Debug\FCMSharp.dll
+C:\FCMSharp\FCMSharp\bin\Debug\FCMSharp.pdb
+C:\FCMSharp\FCMSharp\obj\Debug\FCMSharp.csprojResolveAssemblyReference.cache
+C:\FCMSharp\FCMSharp\obj\Debug\FCMSharp.dll
+C:\FCMSharp\FCMSharp\obj\Debug\FCMSharp.pdb
+C:\FCMSharp\FCMSharp\bin\Debug\Newtonsoft.Json.dll
+C:\FCMSharp\FCMSharp\bin\Debug\Newtonsoft.Json.xml
