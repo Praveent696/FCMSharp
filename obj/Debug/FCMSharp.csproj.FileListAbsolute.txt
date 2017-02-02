@@ -10,3 +10,9 @@ C:\FCMSharp\FCMSharp\obj\Debug\FCMSharp.dll
 C:\FCMSharp\FCMSharp\obj\Debug\FCMSharp.pdb
 C:\FCMSharp\FCMSharp\bin\Debug\Newtonsoft.Json.dll
 C:\FCMSharp\FCMSharp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\parveen.kumar\Desktop\fcm\FCMSharp\bin\Debug\FCMSharp.dll
+C:\Users\parveen.kumar\Desktop\fcm\FCMSharp\bin\Debug\FCMSharp.pdb
+C:\Users\parveen.kumar\Desktop\fcm\FCMSharp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\parveen.kumar\Desktop\fcm\FCMSharp\obj\Debug\FCMSharp.csprojResolveAssemblyReference.cache
+C:\Users\parveen.kumar\Desktop\fcm\FCMSharp\obj\Debug\FCMSharp.dll
+C:\Users\parveen.kumar\Desktop\fcm\FCMSharp\obj\Debug\FCMSharp.pdb
