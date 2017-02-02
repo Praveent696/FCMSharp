@@ -84,9 +84,7 @@ PM> Install-Package Praveent696.FCMSharp
 
 ## Authors
 
-* **Praveen Tiwari** - *Initial work* - [Praveent696](https://github.com/Praveent696)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Praveen Tiwari** - [Praveent696](https://github.com/Praveent696)
 
 ## License
 
