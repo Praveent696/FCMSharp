@@ -32,7 +32,7 @@ PM> Install-Package Praveent696.FCMSharp
 * You can use FCMSharp like this
  
  * 1. Send Push To single device
-  ```
+  ```C#
             FCMSharp.FCMSharp fcmSharp = new FCMSharp.FCMSharp();
 
             FCMSharp.DataObject.FCMConfig config = new FCMSharp.DataObject.FCMConfig();
@@ -54,7 +54,7 @@ PM> Install-Package Praveent696.FCMSharp
   ```
   * 2. Send Push To Multiple devices
   
-  ```
+  ```C#
             FCMSharp.FCMSharp fcmSharp = new FCMSharp.FCMSharp();
 
             FCMSharp.DataObject.FCMConfig config = new FCMSharp.DataObject.FCMConfig();
