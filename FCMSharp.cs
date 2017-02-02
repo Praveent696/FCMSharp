@@ -13,7 +13,6 @@ namespace FCMSharp
 {
     public class FCMSharp
     {
-        // By Praveen Tiwari
         private string appID = "";
         private string senderID = "";
         public void ConfigureFCMSharp(FCMConfig config)
