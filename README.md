@@ -29,21 +29,18 @@ PM> Install-Package Praveent696.FCMSharp
  
 ## Example Code for version >= 2.0.0
 
-* You can use FCMSharp like this
-
 * Import namespaces 
   ```C#
           using FCMSharp;
- 
   ```
  
-* Setup 
+* Setup
   ```C#
             string _fcmServerKey = "<Your fcm server key>";
             string _fcmSenderId = "<Your fcm sender id>";
             FcmSharpClient client = new FcmSharpClient(_fcmServerKey, _fcmSenderId);
- ```
- 
+    ```
+
  * Send Push To single device
    ```C#
             NotificationConfig config = new NotificationConfig()
@@ -59,7 +56,7 @@ PM> Install-Package Praveent696.FCMSharp
             var response1 = await client.SendNotificationAsync(config);
 
             Console.WriteLine(string.Format("Status for Device {0} is {1}", response1.DeviceId, response1.Success));
-  ```
+    ```
  
   * Send Push To Multiple devices
   
