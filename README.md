@@ -26,8 +26,76 @@ PM> Install-Package Praveent696.FCMSharp
 ## Language Used
 
 * C#.
+ 
+## Example Code for version >= 2.0.0
 
-## Example Code 
+* You can use FCMSharp like this
+
+* Import namespaces 
+  ```C#
+          using FCMSharp;
+ 
+  ```
+ 
+* Setup 
+  ```C#
+            string _fcmServerKey = "<Your fcm server key>";
+            string _fcmSenderId = "<Your fcm sender id>";
+            FcmSharpClient client = new FcmSharpClient(_fcmServerKey, _fcmSenderId);
+ ```
+ 
+ * 1. Send Push To single device
+  ```C#
+            NotificationConfig config = new NotificationConfig()
+            {
+                customPayload = null,
+                Title = "sfvsgfg",
+                Message = "sdfsfsdf",
+                FcmDeviceToken = "BHahMLW-UVYCbTY0alBKTov6krPI-................................",
+                ignoreNotificationPayload = false,
+                Priority = Constants.MessagePriority.high
+            };
+
+            var response1 = await client.SendNotificationAsync(config);
+
+            Console.WriteLine(string.Format("Status for Device {0} is {1}", response1.DeviceId, response1.Success));
+  ```
+ 
+  * 2. Send Push To Multiple devices
+  
+  ```C#
+            var configs = new List<NotificationConfig>()
+            {
+                new NotificationConfig(){
+                    customPayload = null,
+                    Title = "Sample Notification 1",
+                    Message = "Hello World!",
+                    FcmDeviceToken = "BHahMLW-UVYC...................................",
+                    ignoreNotificationPayload = false,
+                    Priority = Constants.MessagePriority.high
+                },
+                new NotificationConfig(){
+                    customPayload = new
+                    {
+
+                    },
+                    Title = "Sample Noptification 2",
+                    Message = "Hello World",
+                    FcmDeviceToken = "BHahMLW.........................................",
+                    ignoreNotificationPayload = false,
+                    Priority = Constants.MessagePriority.high
+                }
+            };
+            var response2 = await client.SendBatchNotificationsAsync(configs);
+
+            foreach (var item in response2)
+            {
+                Console.WriteLine(string.Format("Status for Device {0} is {1}", item.DeviceId, item.Success));
+            }
+  
+  ```
+
+## Legacy Example Code For Version below than 2.0.0 
 
 * You can use FCMSharp like this
  
