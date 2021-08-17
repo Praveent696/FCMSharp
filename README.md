@@ -45,8 +45,7 @@ PM> Install-Package Praveent696.FCMSharp
  ```
  
  * Send Push To single device
- 
-  ```C#
+   ```C#
             NotificationConfig config = new NotificationConfig()
             {
                 customPayload = null,
