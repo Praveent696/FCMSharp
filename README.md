@@ -44,7 +44,8 @@ PM> Install-Package Praveent696.FCMSharp
             FcmSharpClient client = new FcmSharpClient(_fcmServerKey, _fcmSenderId);
  ```
  
- * 1. Send Push To single device
+ * Send Push To single device
+ 
   ```C#
             NotificationConfig config = new NotificationConfig()
             {
@@ -61,7 +62,7 @@ PM> Install-Package Praveent696.FCMSharp
             Console.WriteLine(string.Format("Status for Device {0} is {1}", response1.DeviceId, response1.Success));
   ```
  
-  * 2. Send Push To Multiple devices
+  * Send Push To Multiple devices
   
   ```C#
             var configs = new List<NotificationConfig>()
@@ -99,7 +100,8 @@ PM> Install-Package Praveent696.FCMSharp
 
 * You can use FCMSharp like this
  
- * 1. Send Push To single device
+ * Send Push To single device
+ 
   ```C#
             FCMSharp.FCMSharp fcmSharp = new FCMSharp.FCMSharp();
 
@@ -120,7 +122,7 @@ PM> Install-Package Praveent696.FCMSharp
             bool status = fcmSharp.SendToSingle(device);
   
   ```
-  * 2. Send Push To Multiple devices
+  * Send Push To Multiple devices
   
   ```C#
             FCMSharp.FCMSharp fcmSharp = new FCMSharp.FCMSharp();
