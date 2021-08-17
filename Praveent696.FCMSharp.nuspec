@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Praveent696.FCMSharp</id>
+    <version>2.0.0</version>
+    <title>FCMSharp library to send push using C# and FCM</title>
+    <authors>Praveent696</authors>
+    <owners>Praveent696</owners>
+    <projectUrl>https://github.com/Praveent696/FCMSharp</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>FCMSharp library to send push using C# and FCM</description>
+    <releaseNotes>FCMSharp Second Release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>C# FCMSharp FCM</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="9.0.1" />
+    </dependencies>
+  </metadata>
+</package>

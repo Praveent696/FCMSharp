@@ -45,14 +45,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataObject\FCM.cs" />
-    <Compile Include="FCMSharp.cs" />
+    <Compile Include="DataObject\Constants.cs" />
+    <Compile Include="DataObject\FcmResponse.cs" />
+    <Compile Include="DataObject\NotificationConfig.cs" />
+    <Compile Include="DataObject\NotificationPayload.cs" />
+    <Compile Include="FcmSharpClient.cs" />
+    <Compile Include="Interfaces\IFcmSharpClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\FcmUtility.cs" />
+    <Compile Include="Utility\HttpHelper.cs" />
+    <Compile Include="Utility\Interface\IFcmUtility.cs" />
+    <Compile Include="Utility\Interface\IHttpHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Praveent696.FCMSharp.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
